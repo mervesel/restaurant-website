@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+
+  </head>
+  <body id="body">
+    <header class="main-header">
+      <div id="main-navs" class="container">
+        <a href="#" class="main-header-logo">
+          <i class="fa-solid fa-drumstick-bite"></i>
+        </a>
+        <nav class="main-nav">
+         <ul class="main-nav-items">
+           <li class="main-nav-item">
+             <a href="#">Home</a>
+           </li>
+           <li class="main-nav-item">
+             <a href="#">Chickens</a>
+           </li>
+           <li class="main-nav-item main-nav-item-login">
+             <a class="btn btn-primary" href="#">Login</a>
+           </li>
+           <li class="main-nav-item ">
+            <a onclick="displayMenu()" href="#"><i class="fa-solid fa-bars"></i></a>
+           </li>
+         </ul>
+        </nav>
+      </div> 
+    </header>
+
+    <main>
+      <section id="showcase">
+        <div class="content">
+          <h2>Welcome to DeliciousChicken</h2>
+          <h3>
+            We bring you delicious chickens with many varieties.</h3>
+        </div>
+      </section>
+      <section id="how-it-works">
+        <div class="container">
+          <div class="row">
+            <h2 class="section-title">What flavors are waiting for you?</h2>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum
+              consectetur molestiae quam quaerat tempore iste.
+            </p>
+          </div>
+          <div class="row">
+            <div class="icon-box col-3">
+              <i class="fa-solid fa-registered"></i>
+              <h3>Register</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
+                maxime dolore obcaecati inventore optio harum.
+              </p>
+            </div>
+            <div class="icon-box col-3">
+              <i class="fa-solid fa-book-open-reader"></i>
+              <h3>Choose a Menu</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
+                maxime dolore obcaecati inventore optio harum.
+              </p>
+            </div>
+            <div class="icon-box col-3">
+              <i class="fa-solid fa-drumstick-bite"></i>
+              <h3>Enjoy Chickens</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
+                maxime dolore obcaecati inventore optio harum.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="features">
+        <div class="row">
+          <div class="col-2 features-left"></div>
+          <div class="col-2 features-right">
+            <h3>View All Chickens and place an order!</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi
+              unde neque deserunt facilis eos facere architecto explicabo
+              suscipit esse at impedit voluptas, labore cupiditate, omnis, non
+              dolorum temporibus. Quis, ipsum!
+            </p>
+            <a class="btn btn-primary" href="#">View Chickens</a>
+          </div>
+        </div>
+      </section>
+      <section id="plans">
+        <h2 class="section-title">Join the DeliciousChicken Membership</h2>
+        <div class="container">
+          <div class="row">
+           <div class="col-3 plan">
+            <div class="inner-plan">
+              <h2>Free</h2>
+              <h3>0/month</h3>
+              <ul class="plan-features">
+                <li>Lorem, ipsum dolor.</li>
+                <li>Lorem, ipsum dolor.</li>
+                <li>Lorem ipsum dolor sit.</li>
+                <li>Lorem ipsum dolor sit.</li>
+                <li>Lorem ipsum dolor sit.</li>
+                <li>Lorem, ipsum dolor.</li>
+              </ul>
+              <button class="btn btn-secondary">Choose</button>
+            </div>  
+           </div>
+           <div class="col-3 plan plan-featured">
+            <div class="inner-plan recommended-plan">
+              <h2 class="plan-badge">Recommended</h2>
+              <h2>Basic</h2>
+              <h3>$9.99/month</h3>
+              <ul class="plan-features">
+                <li>Lorem, ipsum dolor.</li>
+                <li>Lorem, ipsum dolor.</li>
+                <li>Lorem ipsum dolor sit.</li>
+                <li>Lorem ipsum dolor sit.</li>
+                <li>Lorem ipsum dolor sit.</li>
+                <li>Lorem, ipsum dolor.</li>
+              </ul>
+              <button class="btn btn-secondary">Choose</button>
+            </div>  
+           </div>
+           <div class="col-3 plan">
+            <div class="inner-plan">
+              <h2>Premium</h2>
+              <h3>$19.99/month</h3>
+              <ul class="plan-features">
+                <li>Lorem, ipsum dolor.</li>
+                <li>Lorem, ipsum dolor.</li>
+                <li>Lorem ipsum dolor sit.</li>
+                <li>Lorem ipsum dolor sit.</li>
+                <li>Lorem ipsum dolor sit.</li>
+                <li>Lorem, ipsum dolor.</li>
+              </ul>
+              <button class="btn btn-secondary">Choose</button>
+            </div>  
+           </div>
+          </div>
+        </div>
+      </section>
+      <section id="counters">
+        <div class="row counter">
+          <div class="col-3">
+            <span class="counter-item">968</span>
+            <h4>Chickens</h4>
+          </div>
+          <div class="col-3">
+            <span class="counter-item">458</span>
+            <h4>Specials</h4>
+          </div>
+          <div class="col-3">
+            <span class="counter-item">1204</span>
+            <h4>Customers</h4>
+          </div>
+        </div>
+      </section>
+      <section id="chickens">
+        <h2 class="section-title">Newest Chickens</h2>
+        <div class="container">
+          <div class="row">
+            <div class="col-3 card-container">
+              <div class="card">
+                <img class="img-fluid card-img" src="img/chicken1.jpg" alt="">
+                <div class="card-body">
+                  <h2>Special Chicken</h2>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui officia ad quae in harum excepturi quidem maiores reprehenderit similique ab vitae eligendi recusandae a, magni tempore impedit dolores quam dolorem.</p>
+                  <p>
+                    <button class="btn btn-primary">See More</button>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-3 card-container">
+              <div class="card ">
+                <img class="img-fluid card-img" src="img/newchicken.jpg" alt="">
+                <div class="card-body">
+                  <h2>Special Chicken</h2>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui officia ad quae in harum excepturi quidem maiores reprehenderit similique ab vitae eligendi recusandae a, magni tempore impedit dolores quam dolorem.</p>
+                  <p>
+                    <button class="btn btn-primary">See More</button>
+                  </p>
+              </div>
+            </div>
+           
+            </div>
+            <div class="col-3 card-container">
+              <div class="card ">
+                <img class="img-fluid card-img" src="img/chicken3.jpg" alt="">
+                <div class="card-body">
+                  <h2>Special Chicken</h2>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui officia ad quae in harum excepturi quidem maiores reprehenderit similique ab vitae eligendi recusandae a, magni tempore impedit dolores quam dolorem.</p>
+                  <p>
+                    <button class="btn btn-primary">See More</button>
+                  </p>
+              </div>
+            </div>
+            </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-2">
+            <ul id="footer-links">
+              <li><a href="#">About</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Form</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-2">
+            <ul id="social-links">
+              <li><a href="" class="fa-brands fa-facebook"></a></li>
+              <li><a href="" class="fa-brands fa-twitter"></a></li>
+              <li><a href="" class="fa-brands fa-instagram"></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <a href="#body" id="backtoTop">
+      <i class="fa-solid fa-circle-up"></i>
+    </a>
+
+    <script>
+      function displayMenu(){
+        const link=document.getElementById("main-navs");
+        link.classList.toggle("responsive")
+      }
+    </script>
+  </body>
+</html>
